@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace GalloFlix.Models;
+namespace GalloTube.Models;
 
 [Table("Video")]
-public class Movie
+public class Video
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -16,28 +16,26 @@ public class Movie
 
     [Display(Name = "Descrição")]
     [Required(ErrorMessage = "A Descrição é obrigatória")]
-    [StringLength(100, ErrorMessage = "A Descrição deve possuir no máximo 100 caracteres")]
+    [StringLength(8000, ErrorMessage = "A Descrição deve possuir no máximo 5000 caracteres")]
+    public string Description { get; set; }
+
+    [Display(Name = "Data de Upload")]
+    [Required(ErrorMessage = "A Data de Upload é obrigatória")]
+    public DateTime UploadDate { get; set; }
 
     [Display(Name = "Duração (em minutos)")]
     [Required(ErrorMessage = "A Duração é obrigatória")]
-    public Int16 Duration { get; set; }
-
-    [Display(Name = "Classificação Etária")]
-    [Required(ErrorMessage = "A Classificação Etária é obrigatória")]
-    public byte AgeRating { get; set; }
+    public Int Duration { get; set; }
 
     [StringLength(200)]
-    [Display(Name = "Foto")]
-    public string Image { get; set; }
+    [Display(Name = "Thumbnail")]
+    public string Thumbnail { get; set; }
 
-    [NotMapped]
-    [Display(Name = "Duração")]
-    public string HourDuration { get {
-        return TimeSpan.FromMinutes(Duration) .ToString(@"%h'h 'mm'min'");
-    }}
+    [Display(Name = "VideoFile")]
+    [Required(ErrorMessage = "O VideoFile é obrigatório")]
+    public string VideoFile { get; set; }
+  
 
-    public ICollection<MovieComment> Comments { get; set; }
-    public ICollection<MovieGenre> Genres { get; set; }
-    public ICollection<MovieRating> Ratings { get; set; }
+    public ICollection<VideoTag> Tags { get; set; }
 
 }
