@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T9XQmqOYvQjyX2qAexYS6UG5hMDwphelwDFtuwBD7pg=",
+  "Hash": "VfwJy0OMStkKBQHB8Kw+5QAtx8bF/FdhJ60ZLn/W5HU=",
   "Source": "GalloTube",
   "BasePath": "_content/GalloTube",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\img\\01.png"
     },
     {
-      "Identity": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\02.png",
+      "Identity": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\02.jpg",
       "SourceId": "GalloTube",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\",
       "BasePath": "_content/GalloTube",
-      "RelativePath": "img/02.png",
+      "RelativePath": "img/02.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\02.png"
+      "OriginalItemSpec": "wwwroot\\img\\02.jpg"
     },
     {
       "Identity": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\js\\color-modes.js",

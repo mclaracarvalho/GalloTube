@@ -25,7 +25,7 @@ public class Video
 
     [Display(Name = "Duração (em minutos)")]
     [Required(ErrorMessage = "A Duração é obrigatória")]
-    public Int Duration { get; set; }
+    public int Duration { get; set; }
 
     [StringLength(200)]
     [Display(Name = "Thumbnail")]
