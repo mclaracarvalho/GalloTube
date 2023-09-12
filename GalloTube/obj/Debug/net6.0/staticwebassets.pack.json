@@ -17,8 +17,32 @@
       "PackagePath": "staticwebassets\\img\\01.png"
     },
     {
-      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\02.jpg",
-      "PackagePath": "staticwebassets\\img\\02.jpg"
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\02.png",
+      "PackagePath": "staticwebassets\\img\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\03.png",
+      "PackagePath": "staticwebassets\\img\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\04.png",
+      "PackagePath": "staticwebassets\\img\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\05.png",
+      "PackagePath": "staticwebassets\\img\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\06.png",
+      "PackagePath": "staticwebassets\\img\\06.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\07.png",
+      "PackagePath": "staticwebassets\\img\\07.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\img\\08.png",
+      "PackagePath": "staticwebassets\\img\\08.png"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\GalloTube\\GalloTube\\wwwroot\\js\\color-modes.js",

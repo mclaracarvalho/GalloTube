@@ -19,7 +19,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var videos = _context.Video.Include(m => m.Tags).ThenInclude(g => g.Tag).ToList();
+        var videos = _context.Video.Include(m => m.Tag).ThenInclude(g => g.Tag).ToList();
         return View(videos);
     }
 
